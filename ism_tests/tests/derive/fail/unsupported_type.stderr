@@ -1,0 +1,11 @@
+error: Only String type is supported in ISM
+  --> tests/derive/fail/unsupported_type.rs:5:11
+   |
+5  |     num: i32,
+   |          ^^^
+
+error: Only String type is supported in ISM
+  --> tests/derive/fail/unsupported_type.rs:6:12
+   |
+6  |     flag: bool,
+   |           ^^^^ 
